@@ -13,9 +13,8 @@ export function ToggleBox({ title, children }) {
       <div className="menudiv" onClick={toggle}>
         <Menubtn />
       </div>
-      {isOpened && <div className="menuContent">Menu item 1</div>}
-      {isOpened && <div className="menuContent">Menu item 2</div>}
-      {isOpened && <div className="menuContent">Menu item 3</div>}
+      {isOpened && <p>I123542313123</p>}
+      {isOpened && <p>123154124123123</p>}
     </div>
   );
 }

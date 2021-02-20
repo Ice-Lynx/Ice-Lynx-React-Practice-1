@@ -5,32 +5,29 @@
 }
 .header{
   height:auto;
-  background:  rgb(61, 59, 55);;
+  background:  linear-gradient(to right, #0f0c29, #302b63, #24243e);
   color:white;
-  height:40px;
-  vertical-align: middle;
-  line-height: 40px;
   padding-left: 10px;
 }
 .body {
   flex: 1;
-  background: linear-gradient(45deg, #1CB5E0 0%, #000851 100%);
+  background: rgba(0, 0, 0, 0.87);
   display:flex;
   flex-direction: row;
 }
 .footer {
   height: auto;
-  background: rgb(61, 59, 55);
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
   padding-bottom: 10px;
 }
 
 .left-menu {
   display: flex;
   flex-direction: column;
-  background-color: rgba(47, 37, 180, 0.397);
+  background-color: rgba(16, 14, 143, 0.438);
   border-radius: 0px;
   color: white;
   margin:0px;
@@ -41,7 +38,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 0px;
-  background-color: rgba(31, 21, 170, 0.397);
+  background-color: rgba(57, 103, 255, 0.295);
   color: white;
   margin:0px;
   padding:12px;
@@ -49,7 +46,7 @@
 }
 .menuContent{
   background-color:rgb(88, 166, 255);
-  width: 100px;
+  width: 200px;
   padding:5px;
   margin:5px;
   border-radius: 5px;
@@ -60,4 +57,46 @@
   margin-right: auto;
   margin-top: 5px;
   margin-bottom: 3px;
+}
+
+
+.title {
+  font-size: 20px;
+  margin-left: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.title.selected {
+  font-size: 20px;
+}
+
+.underline {
+  width: 100%;
+  height: 3px;
+  border-radius: 4px;
+  background: rgba(251,158,49,1);
+  position: absolute;
+  bottom: -4px;
+}
+
+.overline {
+  width: 100%;
+  height: 3px;
+  border-radius: 4px;
+  background: rgba(233,46,159,1);
+  position: absolute;
+  bottom: 22px;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+  user-select: none;
+}
+
+ol {
+  display: flex;
+  justify-content: left;
 }
