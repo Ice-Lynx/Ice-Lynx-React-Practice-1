@@ -31,6 +31,7 @@ export function IceLynxLogo() {
       }}
       onHoverStart={() => setIsChecked(!isChecked)}
       onHoverEnd={() => setIsChecked(!isChecked)}
+      onClick={() => setIsChecked(!isChecked)}
     >
       <svg width="90" height="115">
         <path d="M 25 60 l 5 0 l 10 10 l -5 0 l -10 -5" fill="#91cdff" />
