@@ -5,23 +5,23 @@ import { motion, AnimateSharedLayout } from "framer-motion";
 export const screens = [
   {
     title: "Zezima",
-    color: "#ffffff",
+    color: "rgba(233,46,159,1)",
   },
   {
     title: "Duriel321",
-    color: "#ffffff",
+    color: "rgba(233,46,159,1)",
   },
   {
     title: "CowKiller1337",
-    color: "#ffffff",
+    color: "rgba(233,46,159,1)",
   },
   {
     title: "Exam",
-    color: "#ffffff",
+    color: "rgba(233,46,159,1)",
   },
   {
     title: "ElveMage",
-    color: "#ffffff",
+    color: "rgba(233,46,159,1)",
   },
 ];
 
@@ -36,7 +36,7 @@ export function TopMenu() {
             animate
             key={i}
             className={`title ${i === selected && "selected"}`}
-            style={{ color: i === selected ? color : "#ffffff" }}
+            style={{ color: i === selected ? color : "rgba(0,0,0,0.7)" }}
             onHoverStart={() => setSelected(i)}
           >
             {i === selected && (

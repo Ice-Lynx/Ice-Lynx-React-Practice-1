@@ -38,7 +38,7 @@ export function IceLynxLogo() {
         <path d="M 45 80 l 5 5 l -2.5 5 l -5 0 l -2.5 -5" fill="#91cdff" />
         <path
           d="M 45 40 l -15 -5 l -15 -15 l -5 -15 l -5 -5 l 5 15 l -5 15 l 10 15 l -10 15 l -5 20 l 10 -5 l 10 40 l 5 -25 l 5 -5 l 10 10 l 10 0 l 10 -10 l 5 5 l 5 25 l 10 -40 l 10 5 l -5 -20 l -10 -15 l 10 -15 l -5 -15 l 5 -15 l -5 5 l -5 15 l -15 15 l -15 5"
-          fill="rgba(0,0,0,0.3)"
+          fill="rgba(255,255,255,0.1)"
         />
         <svg width="90" height="115" scale="1">
           <motion.path

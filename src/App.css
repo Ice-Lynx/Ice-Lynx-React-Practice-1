@@ -13,11 +13,15 @@
   flex: 1;
   display:flex;
   flex-direction: row;
+  background-color: #fffefe;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ffa193' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ffd1bf' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ffa698' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23ffd3b4' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ffab9d' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23ffd5a8' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23ffb1a2' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ffd69c' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ffb6a7' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23ffd890' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ffbbac' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23feda84' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 .footer {
   height: auto;
-  background: rgb(25, 22, 27);
-  color: rgb(109, 109, 109);
+  background: rgb(77, 76, 76);
+  color: rgb(245, 245, 245);
   text-align: center;
   font-size: 13px;
   padding-bottom: 10px;
@@ -26,19 +30,20 @@
 .left-menu {
   display: flex;
   flex-direction: column;
-  background-color: rgb(31, 31, 43);;
+  background-color: rgba(31, 31, 43, 0.1);;
   border-radius: 0px;
   color: white;
   margin:0px;
   padding:5px;
   width: auto;
+  
 }
 .content {
   display: flex;
   flex-direction: column;
   border-radius: 0px;
-  background-color: rgb(31, 31, 43);
-  color: rgb(185, 185, 185);
+  background-color: rgba(31, 31, 43, 0.1);
+  color: rgb(32, 32, 32);
   margin:0px;
   padding:12px;
   width: 100%;
@@ -46,7 +51,6 @@
   font-size: 14px;
   letter-spacing: 0.6px;
   word-spacing: 0.4px;
-  color: #b1b1b1;
   font-weight: 400;
   text-decoration: none;
   font-style: normal;
@@ -79,7 +83,7 @@
   font-size: 15px;
   letter-spacing: 2px;
   word-spacing: 2px;
-  font-weight: 400;
+  font-weight: 700;
   
 }
 
