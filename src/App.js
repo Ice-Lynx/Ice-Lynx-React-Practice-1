@@ -1,10 +1,14 @@
 import "./App.css";
 import { ToggleBox } from "./components/left-menu.jsx";
 import { IceLynxLogo } from "./components/ice-lynx-logo.jsx";
+import ReactLogo from "./logo-text.png";
 
 function App() {
   return (
     <div class="wrapper">
+      <div class="header">
+        <img src={ReactLogo} class="App-logo" alt="logo" />
+      </div>
       <div class="body">
         <ToggleBox />
         <div class="content">
