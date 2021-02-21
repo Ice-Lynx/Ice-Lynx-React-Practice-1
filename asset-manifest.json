@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Ice-Lynx-React-Practice-1/static/css/main.f95fd735.chunk.css",
-    "main.js": "/Ice-Lynx-React-Practice-1/static/js/main.6c7cbf52.chunk.js",
-    "main.js.map": "/Ice-Lynx-React-Practice-1/static/js/main.6c7cbf52.chunk.js.map",
+    "main.css": "/Ice-Lynx-React-Practice-1/static/css/main.729e6c1b.chunk.css",
+    "main.js": "/Ice-Lynx-React-Practice-1/static/js/main.cd875d2a.chunk.js",
+    "main.js.map": "/Ice-Lynx-React-Practice-1/static/js/main.cd875d2a.chunk.js.map",
     "runtime-main.js": "/Ice-Lynx-React-Practice-1/static/js/runtime-main.34d4c3a7.js",
     "runtime-main.js.map": "/Ice-Lynx-React-Practice-1/static/js/runtime-main.34d4c3a7.js.map",
     "static/js/2.8c6b336f.chunk.js": "/Ice-Lynx-React-Practice-1/static/js/2.8c6b336f.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.b2744d5c.chunk.js": "/Ice-Lynx-React-Practice-1/static/js/3.b2744d5c.chunk.js",
     "static/js/3.b2744d5c.chunk.js.map": "/Ice-Lynx-React-Practice-1/static/js/3.b2744d5c.chunk.js.map",
     "index.html": "/Ice-Lynx-React-Practice-1/index.html",
-    "static/css/main.f95fd735.chunk.css.map": "/Ice-Lynx-React-Practice-1/static/css/main.f95fd735.chunk.css.map",
+    "static/css/main.729e6c1b.chunk.css.map": "/Ice-Lynx-React-Practice-1/static/css/main.729e6c1b.chunk.css.map",
     "static/js/2.8c6b336f.chunk.js.LICENSE.txt": "/Ice-Lynx-React-Practice-1/static/js/2.8c6b336f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.34d4c3a7.js",
     "static/js/2.8c6b336f.chunk.js",
-    "static/css/main.f95fd735.chunk.css",
-    "static/js/main.6c7cbf52.chunk.js"
+    "static/css/main.729e6c1b.chunk.css",
+    "static/js/main.cd875d2a.chunk.js"
   ]
 }
