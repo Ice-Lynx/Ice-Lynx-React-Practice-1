@@ -1,5 +1,5 @@
 .App-logo {
-  height: 40px;
+  height: 30px;
   pointer-events: none;
 }
 
@@ -61,13 +61,14 @@
   margin:0px;
   padding:5px;
   width: auto;
+  backdrop-filter: blur(3px);
   
 }
 .content {
   display: flex;
   max-width: 800px;
   flex-direction: column;
-
+  backdrop-filter: blur(3px);
   border-radius: 0px;
   background-color: rgba(216, 216, 216, 0.37);
   color: rgb(32, 32, 32);

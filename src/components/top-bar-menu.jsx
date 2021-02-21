@@ -4,23 +4,63 @@ import { motion, AnimateSharedLayout } from "framer-motion";
 
 export const screens = [
   {
-    title: "Zezima",
+    title: "Lynx Titan",
     color: "rgba(233,46,159,1)",
   },
   {
-    title: "Duriel321",
+    title: "Hey Jase",
     color: "rgba(233,46,159,1)",
   },
   {
-    title: "CowKiller1337",
+    title: "ShawnBay",
     color: "rgba(233,46,159,1)",
   },
   {
-    title: "Exam",
+    title: "senZe",
     color: "rgba(233,46,159,1)",
   },
   {
-    title: "ElveMage",
+    title: "Tomdabom",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "Karma",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "Harmony",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "DedWilson",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "GodTermentor",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "Vinny",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "borsi",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "Brundeen",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "Eeli",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "Oslo",
+    color: "rgba(233,46,159,1)",
+  },
+  {
+    title: "Aziz",
     color: "rgba(233,46,159,1)",
   },
 ];
