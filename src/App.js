@@ -6,9 +6,6 @@ import { TopMenu } from "./components/top-bar-menu.jsx";
 function App() {
   return (
     <div class="wrapper">
-      <div class="header">
-        <TopMenu />
-      </div>
       <div class="body">
         <ToggleBox />
         <div class="content">

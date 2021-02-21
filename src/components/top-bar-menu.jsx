@@ -30,31 +30,26 @@ export function TopMenu() {
 
   return (
     <AnimateSharedLayout>
-      <ol style={{ transform: "translateZ(0)" }}>
+      <div style={{ transform: "translateZ(0)" }}>
         {screens.map(({ title, color }, i) => (
           <motion.li
             animate
             key={i}
             className={`title ${i === selected && "selected"}`}
-            style={{ color: i === selected ? color : "#ffff" }}
+            style={{ color: i === selected ? color : "#ffffff" }}
             onHoverStart={() => setSelected(i)}
           >
             {i === selected && (
-              <motion.div
-                layoutId="underline"
-                className="underline"
-              />
+              <motion.div layoutId="sideline" className="sideline" />
             )}
             {i === selected && (
-              <motion.div
-                layoutId="overline"
-                className="overline"
-              />
+              <motion.div layoutId="underline" className="underline" />
             )}
+
             {title}
           </motion.li>
         ))}
-      </ol>
+      </div>
     </AnimateSharedLayout>
   );
 }
