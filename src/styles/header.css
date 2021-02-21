@@ -1,0 +1,14 @@
+.App-logo {
+    height: 30px;
+    pointer-events: none;
+  }
+
+  .header{
+    height:auto;
+    background:  linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color:white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  }

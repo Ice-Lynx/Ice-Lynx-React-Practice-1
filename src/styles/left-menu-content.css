@@ -1,0 +1,36 @@
+.title {
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+  }
+  .title.selected {
+    font-size: 15px;
+  }
+  .menu-arrow {
+    width: 0; 
+    height: 0; 
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 12px solid rgba(233,46,159,1);
+    position: absolute;
+    left: 0px;
+    bottom:6px;
+  }
+  li {
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 5px;
+    user-select: none;
+  }
+  
+  ol {
+    justify-content: left;
+  }

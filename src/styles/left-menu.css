@@ -1,0 +1,11 @@
+.left-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(216, 216, 216, 0.37);
+    border-radius: 0px;
+    color: white;
+    margin:0px;
+    padding:5px;
+    width: auto;
+    backdrop-filter: blur(3px);
+  }

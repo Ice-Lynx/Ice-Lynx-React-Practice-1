@@ -1,3 +1,4 @@
+import "../styles/ice-lynx-logo.css";
 import * as React from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 
@@ -62,7 +63,7 @@ export function IceLynxLogo() {
             style={{ pathLength: pathLength, opacity: opacity }}
           />
           <motion.path
-            d="M 5 0 l 5 15 l -5 15 l 10 15 l -10 15 l -5 20 l 10 -5 l 10 40 l 5 -25 l 5 -5"
+            d="m 5 0 l 5 15 l -5 15 l 10 15 l -10 15 l -5 20 l 10 -5 l 10 40 l 5 -25 l 5 -5"
             fill="transparent"
             strokeWidth="1"
             stroke="rgb(145,205,255)"
@@ -71,7 +72,7 @@ export function IceLynxLogo() {
             style={{ pathLength: pathLength, opacity: opacity }}
           />
           <motion.path
-            d="M 85 0 l -5 15 l 5 15 l -10 15 l 10 15 l 5 20 l -10 -5 l -10 40 l -5 -25 l -5 -5"
+            d="m 85 0 l -5 15 l 5 15 l -10 15 l 10 15 l 5 20 l -10 -5 l -10 40 l -5 -25 l -5 -5"
             fill="transparent"
             strokeWidth="1"
             stroke="rgb(145,205,255)"
@@ -80,7 +81,7 @@ export function IceLynxLogo() {
             style={{ pathLength: pathLength, opacity: opacity }}
           />
           <motion.path
-            d="M 30 85 l 10 10 l 5 0"
+            d="m 30 85 l 10 10 l 5 0"
             fill="transparent"
             strokeWidth="1"
             stroke="rgb(145,205,255)"
@@ -89,7 +90,7 @@ export function IceLynxLogo() {
             style={{ pathLength: pathLength, opacity: opacity }}
           />
           <motion.path
-            d="M 60 85 l -10 10 l -5 0"
+            d="m 60 85 l -10 10 l -5 0"
             fill="transparent"
             strokeWidth="1"
             stroke="rgb(145,205,255)"

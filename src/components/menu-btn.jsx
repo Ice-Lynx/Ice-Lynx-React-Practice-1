@@ -1,13 +1,8 @@
-import * as React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-export function Menubtn() {
-  const boxVariants = {
-    checked: { scale: 1, background: "rgba(0,100,255,0)" },
-    unchecked: { scale: 1, background: "rgba(255,255,255,0)", width: "auto" },
-  };
-  const [isChecked, setIsChecked] = React.useState(true);
+export function MenuBtn() {
+  const [isChecked, setIsChecked] = useState(true);
   const [rotation, setRotation] = useState(0);
 
   return (
@@ -18,10 +13,7 @@ export function Menubtn() {
         borderRadius: 0,
         margin: 0,
       }}
-      variants={boxVariants}
-      animate={{ rotate: rotation}}
-        // animate={isChecked ? "checked" : "unchecked"}
-        // transition={{ duration: 0.1, type: "tween" }}
+      animate={{ rotate: rotation }}
       onClick={() => setIsChecked(!isChecked) & setRotation(rotation + 180)}
     >
       <svg width="100" height="100" scale="1">

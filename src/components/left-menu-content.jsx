@@ -1,4 +1,4 @@
-import React from "react";
+import "../styles/left-menu-content.css";
 import { useState } from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 
@@ -56,7 +56,7 @@ export const screens = [
     color: "rgba(233,46,159,1)",
   },
   {
-    title: "Oslo",
+    title: "Oslo the pooper",
     color: "rgba(233,46,159,1)",
   },
   {
@@ -65,7 +65,7 @@ export const screens = [
   },
 ];
 
-export function TopMenu() {
+export function LeftMenuContent() {
   const [selected, setSelected] = useState(0);
 
   return (
@@ -80,12 +80,8 @@ export function TopMenu() {
             onHoverStart={() => setSelected(i)}
           >
             {i === selected && (
-              <motion.div layoutId="sideline" className="sideline" />
+              <motion.div layoutId="menu-arrow" class="menu-arrow" />
             )}
-            {i === selected && (
-              <motion.div layoutId="underline" className="underline" />
-            )}
-
             {title}
           </motion.li>
         ))}

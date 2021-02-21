@@ -1,20 +1,21 @@
+import "../styles/left-menu.css";
 import React, { useState } from "react";
-import { Menubtn } from "./menu-btn.jsx";
-import { TopMenu } from "./top-bar-menu.jsx";
+import { MenuBtn } from "./menu-btn.jsx";
+import { LeftMenuContent } from "./left-menu-content.jsx";
 
-export function ToggleBox({ title, children }) {
+export function LeftMenu({ title, children }) {
   const [isOpened, setIsOpened] = useState(false);
 
-  function toggle() {
+  function Toggle() {
     setIsOpened((wasOpened) => !wasOpened);
   }
 
   return (
     <div className="left-menu">
-      <div className="menudiv" onClick={toggle}>
-        <Menubtn />
+      <div className="menudiv" onClick={Toggle}>
+        <MenuBtn />
       </div>
-      {isOpened && <TopMenu/>}
+      {isOpened && <LeftMenuContent />}
     </div>
   );
 }

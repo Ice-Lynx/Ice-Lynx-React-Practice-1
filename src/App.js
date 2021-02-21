@@ -1,17 +1,24 @@
-import "./App.css";
-import { ToggleBox } from "./components/left-menu.jsx";
-import { IceLynxLogo } from "./components/ice-lynx-logo.jsx";
+/* CSS styles */
+import "./styles/app.css";
+import "./styles/header.css";
+import "./styles/content-box.css";
+import "./styles/footer.css";
+/* Media */
 import ReactLogo from "./logo-text.png";
+/* React components */
+import { React } from "react";
+import { LeftMenu } from "./components/left-menu.jsx";
+import { IceLynxLogo } from "./components/ice-lynx-logo.jsx";
 
-function App() {
+export default function App() {
   return (
     <div class="wrapper">
       <div class="header">
         <img src={ReactLogo} class="App-logo" alt="logo" />
       </div>
       <div class="body">
-        <ToggleBox />
-        <div class="content">
+        <LeftMenu />
+        <div class="content-box">
           <h1>Prince Ali Rescue</h1>
           <p>
             You would ideally start in Varrock, where you would buy or withdraw
@@ -144,5 +151,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
